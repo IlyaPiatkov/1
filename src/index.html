@@ -7,11 +7,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="theme-color" content="#fff">
     <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" media="all" href="css/normalize.css">
     <link rel="stylesheet" media="all" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
   </head>
   <body>
-    //= include _header.html
-    <div class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, aperiam architecto corporis deserunt exercitationem expedita facere fuga iusto modi molestiae mollitia officiis, possimus, quaerat repudiandae sapiente soluta tempore veritatis vitae.</div>
-    <div class="big">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit labore maxime neque, nostrum saepe vel vero. Accusantium at ex, excepturi iste magni, mollitia nemo obcaecati officiis qui repellat tempore voluptatem.</div>
+		<header class="header-page">
+			<div class="header-page__wrapper">
+				<div class="logo"><img src="img/logo.png"></div>
+				<div class="header-page__title">Having Trouble Viewing it? View Online.</div>
+			</div>
+		</header>
+		<main class="content">
+			<div class="content__wrapper">
+				<section class="large-items">
+					<figure class="large-items__img">
+						<img src="img/1.jpg" height="250" width="540">
+					</figure>
+					<h2 class="large-items__title">Larger Item Heading</h2>
+					<p class="large-items__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lectus at arcu egestas fringilla fermentum eget ipsum. Vestibulum hendrerit dignissim nunc vel volutpat. Nulla facilisi.</p>
+					<button type="submit" class="btn">Details</button>
+				</section>
+				<section class="small-items">
+					<div class="small-items__column-left">
+						<figure class="large-items__img">
+						<img src="img/3.jpg" height="120" width="256">
+					</figure>
+					<h2 class="small-items__title">Larger Item Heading</h2>
+					<p class="small-items__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lectus at arcu egestas fringilla fermentum eget ipsum. Vestibulum hendrerit dignissim nunc vel volutpat. Nulla facilisi.</p>
+					<button type="submit" class="btn">Details</button>
+					</div>
+					<div class="small-items__column-right">
+						<figure class="large-items__img">
+						<img src="img/2.jpg" height="120" width="256">
+					</figure>
+					<h2 class="small-items__title">Larger Item Heading</h2>
+					<p class="small-items__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lectus at arcu egestas fringilla fermentum eget ipsum. Vestibulum hendrerit dignissim nunc vel volutpat. Nulla facilisi.</p>
+					<button type="submit" class="btn">Details</button>
+					</div>
+				</section>
+				<section class="ads">
+					<div class="ads__wrapper">
+						<div class="ads__items">ad<br>space</div>
+						<div class="ads__items">ad<br>space</div>
+						<div class="ads__items">ad<br>space</div>	
+					</div>				
+				</section>
+				<section class="blog-items">
+					<div class="blog-items__list">
+						<h2 class="blog-items__title">Blog Post Title One</h2>
+						<p class="blog-items__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lectus at arcu egestas fringilla fermentum eget ipsum. Vestibulum hendrerit dignissim nunc vel volutpat. Nulla facilisi. </p>
+						<button type="submit" class="btn">Details</button>
+					</div>
+					<div class="blog-items__list">
+						<h2 class="blog-items__title">Blog Post Title One</h2>
+						<p class="blog-items__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lectus at arcu egestas fringilla fermentum eget ipsum. Vestibulum hendrerit dignissim nunc vel volutpat. Nulla facilisi.</p>
+						<button type="submit" class="btn">Details</button>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer-page">
+			<div class="footer-page__wrapper">
+				<section class="stay-connected">
+					<span class="stay-connected__title">stay connected</span>
+					<div class="stay-connected__cocial">
+						<div><a href="#" class="stay-connected__cocial--twitter">twitter</a></div>
+						<div><a href="#" class="stay-connected__cocial--facebook">facebook</a></div>
+						<div><a href="#" class="stay-connected__cocial--rss">rss</a></div>
+						<div><a href="#" class="stay-connected__cocial--pinterest">pinterest</a></div>
+						<div><a href="#" class="stay-connected__cocial--google">google+</a></div>
+						<div><a href="#" class="stay-connected__cocial--dribbble">dribbble</a></div>
+						<div><a href="#" class="stay-connected__cocial--linkedin">linkedin</a></div>
+						<div><a href="#" class="stay-connected__cocial--fickr">fickr</a></div>
+					</div>
+				</section>
+			</div>
+			<div class="footer-page__wrapper">
+				<section class="blurb">
+					<p class="blurb__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis lectus at arcu egestas fringilla fermentum eget ipsum. Vestibulum hendrerit dignissim nunc vel volutpat. Nulla facilisi.</p>
+					<ul class="blurb__list">
+						<li><a href="#">Quick Link One</a></li>
+						<li><a href="#">Quick Link Two</a></li>
+						<li><a href="#">Quick Link Three</a></li>
+						<li><a href="#">Quick Link Four</a></li>
+					</ul>
+				</section>
+				<section class="copyright">
+					<div class="copyright__column-left">
+						<p>Copyright 2013 Gusto. All Rights Reserved.</p>
+					</div>
+					<div class="copyright__column-right">
+						<p>View Online  |  Unsubscribe</p>
+					</div>
+				</section>
+			</div>
+		</footer>
   </body>
 </html>

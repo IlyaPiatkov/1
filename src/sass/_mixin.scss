@@ -1,0 +1,40 @@
+@mixin container {
+	width: 540px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+.btn {
+	padding: 6px 15px;
+	background: #53545e;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Open Sans', 'arial', sans-serif;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	&:hover {
+		opacity: 0.7;
+	}
+	&:active {
+		opacity: 0.4;
+	}
+}
+@mixin title {
+	&__title {
+		font-family: 'Open Sans', 'arial', sans-serif;
+		font-size: 18px;
+		line-height: 18px;
+		color: #53545e;
+		text-transform: uppercase;
+	}
+}
+@mixin text {
+	&__text {
+		font-family: 'Overpass', 'arial', sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		color: #bfc0c3;
+	}
+}

@@ -1,0 +1,32 @@
+.blurb {
+	@include text;
+	display: table;
+	border-bottom: 1px solid #eaeaea;
+}
+.blurb__text {
+	display: table-cell;
+	width: 360px;
+	border-bottom: 25px solid #53545e;
+	border-top: 25px solid #53545e;
+}
+.blurb__list {
+	display: table-cell;
+	padding-left: 60px;
+	width: 120px;
+	list-style: none;
+	border-bottom: 25px solid #53545e;
+	border-top: 25px solid #53545e;
+}
+.blurb__list a {
+	font-family: 'Overpass', 'arial', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #bfc0c3;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+	&:active {
+		opacity: 0.5;
+	}
+}

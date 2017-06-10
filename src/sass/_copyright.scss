@@ -1,0 +1,15 @@
+.copyright {
+	display: table;
+}
+.copyright__column-left,
+.copyright__column-right {
+	display: table-cell;
+	font-family: 'Overpass', 'arial', sans-serif;
+	font-size: 12px;
+	line-height: 24px;
+	color: #bfc0c3;
+	width: 270px;
+}
+.copyright__column-right {
+	text-align: right;
+}

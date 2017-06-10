@@ -1,0 +1,26 @@
+.ads {
+	display: inline-table;
+	border-bottom: 1px solid #eaeaea;
+	padding: 30px 0;
+}
+.ads__wrapper {
+	display: table-row;
+}
+.ads__items {
+	display: table-cell;
+	width: 160px;
+	height: 160px;
+	background: #dedede;
+	font-family: 'Open Sans', 'arial', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+	color: #b4b4b4;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	border-left: 30px solid #ffffff;
+	&:first-child {
+		border-left: none;
+	}
+}

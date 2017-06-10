@@ -1,0 +1,10 @@
+.footer-page {
+	background: #e1e1e1;
+}
+.footer-page__wrapper {
+	@include container;
+	background: #ffffff;
+	&:last-child {
+		background: #53545e;
+	}
+}

@@ -1,0 +1,16 @@
+.small-items {
+	display: table;
+	border-bottom: 1px solid #eaeaea;
+	padding: 30px 0;
+}
+.small-items__column-left,
+.small-items__column-right {
+	display: table-cell;
+}
+.small-items__column-right {
+	padding-left: 28px;
+}
+.small-items {
+	@include title;
+	@include text;
+}

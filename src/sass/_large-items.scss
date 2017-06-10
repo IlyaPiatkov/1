@@ -1,0 +1,12 @@
+.large-items {
+	border-bottom: 1px solid #eaeaea;
+	padding: 30px 0;
+}
+.large-items__img {
+	margin: 0;
+	width: 100%;
+}
+.large-items {
+	@include title;
+	@include text;
+}

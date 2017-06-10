@@ -1,0 +1,116 @@
+.stay-connected {
+	@include title;
+	display: table;
+	height: 75px;
+	&__title {
+		display: table-cell;
+		vertical-align: middle;
+		border-right: 44px solid #ffffff;
+	}
+}
+.stay-connected__cocial {
+	display: table;
+	margin-top: 20px;
+}
+.stay-connected__cocial div {
+	display: table-cell;
+	border-right: 10px solid #ffffff;
+	&:last-child {
+		border-right: none;
+	}
+	& a{
+		position: relative;
+		display: block;
+		width: 34px;
+		height: 34px;
+		background: #e1e1e1;
+		border-radius: 50%;
+		font-size: 0;
+		&:hover {
+			opacity: 0.7;
+		}
+		&:active {
+			opacity: 0.4;
+		}
+	}
+}
+.stay-connected__cocial--twitter:after {
+	content: "";
+	position: absolute;
+	background-position: 0 0;
+	width: 17px;
+	height: 13px;
+	top: 11px;
+	right: 8px;
+	background-image: url('../img/sprites.png');
+}
+.stay-connected__cocial--facebook:after {
+	content: "";
+	position: absolute;
+	background-position: -42px -19px;
+	width: 9px;
+	height: 17px;
+	top: 8px;
+	right: 12px;
+	background-image: url('../img/sprites.png');
+}
+.stay-connected__cocial--rss:after {
+	content: "";
+	position: absolute;
+	background-position: -20px 0;
+	width: 15px;
+	height: 15px;
+	top: 8px;
+	right: 8px;
+	background-image: url('../img/sprites.png');
+}
+.stay-connected__cocial--pinterest:after {
+	content: "";
+	position: absolute;
+	background-position: 0 -16px;
+	width: 20px;
+	height: 20px;
+	top: 7px;
+	right: 7px;
+	background-image: url('../img/sprites.png');
+}
+.stay-connected__cocial--google:after {
+	content: "";
+	position: absolute;
+	background-position: -41px 0;
+	width: 19px;
+	height: 18px;
+	top: 8px;
+	right: 6px;
+	background-image: url('../img/sprites.png');
+}
+.stay-connected__cocial--dribbble:after {
+	content: "";
+	position: absolute;
+	background-position: -61px 0;
+	width: 18px;
+	height: 19px;
+	top: 8px;
+	right: 8px;
+	background-image: url('../img/sprites.png');
+}
+.stay-connected__cocial--linkedin:after {
+	content: "";
+	position: absolute;
+	background-position: -24px -19px;
+	width: 15px;
+	height: 15px;
+	top: 9px;
+	right: 9px;
+	background-image: url('../img/sprites.png');
+}
+.stay-connected__cocial--fickr:after {
+	content: "";
+	position: absolute;
+	background-position: -55px -23px;
+	width: 19px;
+	height: 8px;
+	top: 14px;
+	right: 7px;
+	background-image: url('../img/sprites.png');
+}
