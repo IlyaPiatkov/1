@@ -5,14 +5,18 @@
 	@include container;
 	display: table;
 	height: 100px;
-	background: #53545e;
+	background: $bgfon;
 }
 .logo {
+	padding-top: 5px;
+	padding-left: 1px;
 	display: table-cell;
 	text-align: left;
 	vertical-align: middle;
 }
 .header-page__title {
+	padding-top: 18px;
+	letter-spacing: 0.05px;
 	display: table-cell;
 	text-align: right;
 	vertical-align: middle;

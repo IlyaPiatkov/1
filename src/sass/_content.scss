@@ -1,3 +1,5 @@
 .content__wrapper {
 	@include container;
+	border-left: 1px solid $bordergreey;
+	border-right: 1px solid $bordergreey;
 }

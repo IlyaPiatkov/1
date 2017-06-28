@@ -5,6 +5,6 @@
 	@include container;
 	background: #ffffff;
 	&:last-child {
-		background: #53545e;
+		background: $bgfon;
 	}
 }

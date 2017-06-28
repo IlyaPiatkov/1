@@ -4,8 +4,9 @@
 	padding: 0 30px;
 }
 .btn {
-	padding: 6px 15px;
-	background: #53545e;
+	padding: 6px 13px;
+	margin-left: 1px;
+	background: $bgfon;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 14px;
@@ -23,10 +24,12 @@
 }
 @mixin title {
 	&__title {
+		margin-top: 13px;
 		font-family: 'Open Sans', 'arial', sans-serif;
 		font-size: 18px;
+		font-weight: bold;
 		line-height: 18px;
-		color: #53545e;
+		color: $colorH2;
 		text-transform: uppercase;
 	}
 }
@@ -35,6 +38,7 @@
 		font-family: 'Overpass', 'arial', sans-serif;
 		font-size: 14px;
 		line-height: 20px;
-		color: #bfc0c3;
+		letter-spacing: 0.28px;
+		color: $colorP;
 	}
 }

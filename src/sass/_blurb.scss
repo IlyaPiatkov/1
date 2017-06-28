@@ -9,19 +9,23 @@
 	border-bottom: 25px solid #53545e;
 	border-top: 25px solid #53545e;
 }
+.blurb__text--style {
+	line-height: 24px;
+	letter-spacing: 0.05px;
+}
 .blurb__list {
 	display: table-cell;
 	padding-left: 60px;
 	width: 120px;
 	list-style: none;
-	border-bottom: 25px solid #53545e;
-	border-top: 25px solid #53545e;
+	border-bottom: 25px solid $bgfon;
+	border-top: 25px solid $bgfon;
 }
 .blurb__list a {
 	position: relative;
 	font-family: 'Overpass', 'arial', sans-serif;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 24px;
 	color: #bfc0c3;
 	text-decoration: none;
 	&:hover {
